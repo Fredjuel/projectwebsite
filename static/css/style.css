@@ -1,0 +1,1789 @@
+@font-face{
+    font-family: 'FuturaBold';
+    src: url(../fonts/Futura\ Bold\ font.ttf);
+
+}
+
+#product{
+    border-radius: 14px;
+}
+
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#nav li{
+    justify-content: end;
+}
+
+.dropdown{
+    padding: 0px 10px;
+}
+
+#home{
+    padding: 10px 0px;
+}
+
+.homebtn{
+    padding: 10px 15px;
+    font-size: 40px;
+    
+    
+}
+
+
+
+#hobtn{
+    padding: 40px 40px;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+#hobtn a{
+    color: white;
+    font-size: 28px;
+}
+
+#hobtn1{
+    padding: 40px 30px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+#hobtn2{
+    padding: 40px 50px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+
+
+.bg{
+    padding:0px;
+    margin:0px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(3, 3, 3, 0.747),rgba(15, 15, 15, 0.918)),url(../picture/pexels-tom-fisk-1427107.jpg);
+    background-size: cover;
+    position: relative  ;
+}
+
+.header{
+    padding:0px;
+    margin:0px;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../picture/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-size: cover;
+    position: relative  ;
+}
+
+
+
+#nav{
+    margin-top: fixed;
+    color: aliceblue;
+}
+
+#navbarNav{
+    color: aliceblue;
+}
+
+#foot li{
+    list-style-type: none;
+}
+
+.homebtn h2{
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 550; 
+    font-family:Verdana;
+   
+}
+
+.text a{
+    text-decoration: none;
+    
+}
+
+
+p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+span{
+    color: aliceblue;
+    font-size: 45px;
+}
+
+#homequote{
+    font-size: 28px;
+    color: white;
+}
+
+#homequote a{
+    font-size: 28px;
+}
+
+
+
+
+.fa {
+    padding: 20px 20px;
+    
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-facebook{
+    padding: 10px 25px;
+    margin-right: 10px;
+    
+  }
+
+.fa-whatsapp{
+    padding: 10px 30px;
+    margin-right: 10px;
+   
+}
+
+.fa-twitter{
+    padding: 10px 25px;
+    margin-right: 10px;
+  
+}
+
+.fa-phone{
+    padding: 10px 25px;
+ 
+}
+
+.fa-info-circle{
+    padding: 10px 25px;
+    
+}
+
+.fa fa-envelope{
+    padding: 10px 25px;
+    
+}
+
+
+
+
+nav img{
+    width: 150px;
+}
+
+.navlinks{
+    flex: 1%;
+    text-align: right;
+}
+
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.navlinks a{
+    padding: 10px;
+    text-decoration: none;
+    color: beige;
+    font-weight: 600;
+    
+}
+
+.navlinks a:hover{
+    transition: 1s;
+    color: salmon;
+}
+
+#navtxt{
+    font-size: 26px;
+
+}
+
+.text{
+    width: 90%;
+    color: rgb(127, 255, 212);
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: (50%,50%);
+    text-align: center;
+    
+}
+
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    width: 650px;
+    height:900px;
+    position:absolute;
+    top: 150px;
+    left: 700px;
+    border-radius: 16px;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    padding-left: 11px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+   
+  
+}
+
+.form input{
+    padding: 15px 30px;
+}
+
+.form h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.form h5{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.form a{
+    text-decoration: none;
+}
+
+#country{
+   padding: 10px 30px;
+}
+
+.form tr{
+    padding: 10px;
+}
+
+#shiash{
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 120px;
+}
+
+#shiash:hover{
+    color: rgb(255, 94, 0);
+    cursor: pointer;
+    transition: 2s;
+    transform: translateX(20px);
+}
+
+#logo:hover{
+    transition: 1s;
+    transform: translateX(250px);
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.form label{
+    padding: 10px;
+}
+
+#country{
+    border-radius: 10px;
+}
+
+#formone input{
+    padding: 2px 10px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+#reg{
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    position: relative;
+    bottom:10px;
+}
+
+.button{
+    text-align: center;
+    padding: 18px 33px;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 300px;
+    color: aliceblue;
+    background-color: rgb(8, 8, 8);
+    border-radius: 10px;
+}
+
+
+   
+
+.button:hover{
+    background-color: rgba(0, 89, 100, 0.836);
+}
+
+#already{
+    font-size: 15px;
+    position: absolute;
+    left: 220px;
+    bottom: -13px;
+    color: rgb(197, 197, 197);
+    width: 100px;
+    height: 26px;
+    padding-left: 10px;
+    text-decoration: dotted;
+    
+ 
+}
+
+
+#already:hover{
+    color: salmon;
+}
+
+.headerlogin{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(87, 87, 87, 0.7),rgba(15, 15, 15, 0.918)),url(../picture/loginbg.jpg);
+    background-size: cover;
+    position: relative  ;
+}
+
+.login{
+    align-content: center;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    border-radius: 16px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 10px;
+    width: 680px;
+    height: 480px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+    font-size: 26px;
+
+}
+.login label{
+    padding-left: 10px;
+}
+
+.login input{
+    margin-left: 25px;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+
+.login h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+
+}
+
+#login{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 120px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.container{
+    color: azure;
+    text-decoration: none;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.container p{
+    background-color: rgba(8, 134, 184, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container img{
+    padding-right: 10px;
+    padding-top: 2px;
+    
+}
+.container p{
+    position: absolute;
+    left: 10px;
+    
+    
+}
+
+ .container a{
+    text-decoration: none;
+    color: azure;
+ }
+
+
+ .container a:hover{
+    color: aquamarine;
+ }
+
+ span{
+    color: red;
+ }
+
+ #blue{
+    color: rgb(0, 0, 241);
+ }
+
+
+
+ 
+
+
+
+@media screen and (min-width:425px)
+{
+    /* homepage*/
+
+    .hmbtn button{
+       position: relative;
+       bottom: 25%;
+       padding: 0px;
+
+    }
+
+
+    #hmbtn button,a{
+        font-size: 10px;
+        width: 120px;
+        height: 20px;
+        text-align: center;
+        position: relative;
+        bottom: 25%;
+
+    }
+
+    #hmbtn a{
+        position: absolute;
+        left: 2%;
+
+    }
+
+
+    #foot{
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    #foot .fa{
+        font-size: 14px;
+    }
+
+/* Registration*/
+
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-size: 8px;
+        font-weight: 400;
+        width: 400px;
+        height:500px;
+        position: absolute;
+        left: 0px;
+        top: 250px;
+        border-radius: 16px;
+        color: rgb(43, 43, 43);
+        background-color: rgb(219, 219, 219);
+        padding-left: 11px;
+        box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+       
+      
+    }
+
+    .form h2{
+        font-size: 30px;
+    }
+
+    .form input{
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .form #country{
+        font-size: 10px;
+        padding: 5px 20px;
+    }
+
+    .form .button{
+        width: 80px;
+        position: absolute;
+        left: 35%;
+    }
+
+    .form a{
+        font-size: 15px;
+    }
+
+    .form h5{
+        font-size: 14px;
+    }
+
+/* Login */
+
+    .login{
+        font-size: 12px;
+        color: rgb(3, 3, 3);
+        background-color: rgba(192, 192, 192, 0.384);
+        border-radius: 16px;
+        width: 400px;
+        height: 380px;
+        position: absolute;
+        left: 0px;
+    
+    }
+
+    .login h2{
+        font-size: 30px;
+    }
+
+    #reg{
+        font-size: 15px;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+    .login input{
+        font-size: 14px;
+    }
+
+    .login .button{
+        width: 100px;
+        position: absolute;
+        left: 0%;
+    }
+    .login a{
+        font-size: 15px;
+    }
+
+
+    footer{
+    
+        color: black;
+        background-color: white;
+        height: 10px;
+        text-align: right;
+        font-size: 5px;
+        bottom: 0px;
+       
+    }
+
+    /* Upload file */
+
+    .formupload h2{
+        font-size: 30px;
+    }
+    /* Businesspage */
+
+    #sidebar{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: #37474F;
+
+    }
+
+    .businessstyle{
+        font-size: 10px;
+    }
+
+
+  #sidebar li{
+    font-size: 12px;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav{
+      position: relative;
+      top: 20px;
+      padding: 20px 30px;
+    
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+  
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+  
+
+}
+
+    
+@media screen and (min-width:768px)
+{
+    /* homepage*/
+
+    .hmbtn button{
+       position: relative;
+       bottom: 25%;
+       padding: 0px;
+
+    }
+
+
+    #hmbtn button,a{
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        position: relative;
+        bottom: 25%;
+
+    }
+
+    #hmbtn a{
+        position: absolute;
+        left: 2%;
+
+    }
+
+
+    #foot{
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+
+    #foot .fa{
+        font-size: 14px;
+    }
+
+/* Registration*/
+
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        width: 500px;
+        height:650px;
+        position: absolute;
+        left: 15%;
+        top: 15%;
+        border-radius: 16px;
+        color: rgb(43, 43, 43);
+        background-color: rgb(219, 219, 219);
+        padding-left: 11px;
+        box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+       
+      
+    }
+
+    .form h2{
+        font-size: 30px;
+    }
+
+    .form input{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .form #country{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .form .button{
+        width: 100px;
+        position: absolute;
+        left: 35%;
+    }
+
+    .form a{
+        font-size: 12px;
+    }
+
+    .form h5{
+        font-size: 14px;
+    }
+
+/* Login */
+
+    .login{
+        font-size: 12px;
+        color: rgb(3, 3, 3);
+        background-color: rgba(192, 192, 192, 0.384);
+        border-radius: 16px;
+        width: 400px;
+        height: 380px;
+        position: absolute;
+        left: 25%;
+    
+    }
+
+    .login h2{
+        font-size: 30px;
+    }
+
+    #reg{
+        font-size: 15px;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+    .login input{
+        font-size: 14px;
+    }
+
+    .login .button{
+        width: 100px;
+        position: absolute;
+        left: 0%;
+    }
+    .login a{
+        font-size: 15px;
+    }
+
+
+    footer{
+    
+        color: black;
+        background-color: white;
+        height: 10px;
+        text-align: right;
+        font-size: 5px;
+        bottom: 0px;
+       
+    }
+
+    /* Upload file */
+
+    .formupload h2{
+        font-size: 30px;
+    }
+    /* Businesspage */
+
+    #sidebar{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: #37474F;
+
+    }
+
+    .businessstyle{
+        font-size: 10px;
+    }
+
+
+  #sidebar li{
+    font-size: 12px;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav{
+      position: relative;
+      top: 20px;
+      padding: 20px 30px;
+    
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+  
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+  
+
+}
+
+@media screen and (min-width:1024px)
+{
+    /* homepage*/
+
+    .hmbtn button{
+       position: relative;
+       bottom: 25%;
+       padding: 0px;
+
+    }
+
+
+    #hmbtn button,a{
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        position: relative;
+        bottom: 25%;
+
+    }
+
+    #hmbtn a{
+        position: absolute;
+        left: 2%;
+
+    }
+
+
+    #foot{
+        width: 50%;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+        font-size: 18px;
+        
+    }
+
+    #foot .fa{
+        font-size: 24px;
+    }
+
+/* Registration*/
+
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        width: 500px;
+        height:650px;
+        position: absolute;
+        left: 25%;
+        top: 15%;
+        border-radius: 16px;
+        color: rgb(43, 43, 43);
+        background-color: rgb(219, 219, 219);
+        padding-left: 11px;
+        box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+       
+      
+    }
+
+    .form h2{
+        font-size: 30px;
+    }
+
+    .form input{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .form #country{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+
+    .form .button{
+        width: 100px;
+        position: absolute;
+        left: 35%;
+    }
+
+    .form a{
+        font-size: 12px;
+    }
+
+    .form h5{
+        font-size: 14px;
+    }
+
+/* Login */
+
+    .login{
+        font-size: 12px;
+        color: rgb(3, 3, 3);
+        background-color: rgba(192, 192, 192, 0.384);
+        border-radius: 16px;
+        width: 400px;
+        height: 380px;
+        position: absolute;
+        left: 30%;
+    
+    }
+
+    .login h2{
+        font-size: 30px;
+    }
+
+    #reg{
+        font-size: 15px;
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+    }
+    .login input{
+        font-size: 14px;
+    }
+
+    .login .button{
+        width: 100px;
+        position: absolute;
+        left: 0%;
+    }
+    .login a{
+        font-size: 15px;
+    }
+
+
+    footer{
+    
+        color: black;
+        background-color: white;
+        height: 10px;
+        text-align: right;
+        font-size: 5px;
+        bottom: 0px;
+       
+    }
+
+    /* Upload file */
+
+    .formupload h2{
+        font-size: 30px;
+    }
+    /* Businesspage */
+
+    #sidebar{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: #37474F;
+
+    }
+
+    .businessstyle{
+        font-size: 10px;
+    }
+
+
+  #sidebar li{
+    font-size: 12px;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav{
+      position: relative;
+      top: 20px;
+      padding: 20px 30px;
+    
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+  
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+  
+
+}
+
+@media screen and (min-width:1440px)
+{
+    /* homepage*/
+
+    .hmbtn button{
+       position: relative;
+       bottom: 25%;
+       padding: 0px;
+
+    }
+
+
+    #hmbtn button,a{
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        position: relative;
+        bottom: 25%;
+
+    }
+
+    #hmbtn a{
+        position: absolute;
+        left: 2%;
+
+    }
+
+
+    #foot{
+        width: 50%;
+        height: 50%;
+        padding: 0px;
+        margin: 0px;
+        font-size: 18px;
+        
+    }
+
+    #foot .fa{
+        font-size: 24px;
+    }
+
+/* Registration*/
+
+    
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    width: 500px;
+    height:700px;
+    position:absolute;
+    top: 100px;
+    left: 450px;
+    border-radius: 16px;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    padding-left: 11px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+   
+  
+}
+
+.form input{
+    padding: 8px 10px;
+}
+
+.form h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.form h5{
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+
+.form a{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#country{
+   padding: 10px 30px;
+}
+
+.form tr{
+    padding: 10px;
+}
+
+.form .button{
+    width: 120px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+
+}
+
+
+/* Login */
+
+.login{
+    align-content: center;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    border-radius: 16px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding: 10px;
+    width: 680px;
+    height: 480px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+    font-size: 26px;
+
+}
+.login label{
+    padding-left: 10px;
+}
+
+.login input{
+    margin-left: 25px;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+
+.login h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+
+}
+
+#login{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+
+
+    footer{
+    
+        color: black;
+        background-color: white;
+        height: 10px;
+        text-align: right;
+        font-size: 5px;
+        bottom: 0px;
+       
+    }
+
+    /* Upload file */
+
+    .formupload h2{
+        font-size: 30px;
+    }
+    /* Businesspage */
+
+    #sidebar{
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: #37474F;
+
+    }
+
+    .businessstyle{
+        font-size: 10px;
+    }
+
+
+  #sidebar li{
+    font-size: 12px;
+  }
+  
+  #sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav{
+      position: relative;
+      top: 20px;
+      padding: 20px 30px;
+    
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+  
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+  
+
+}
+
+@media screen and (min-width:1920px)
+{
+
+    
+
+.homebtn{
+    padding: 10px 20px;
+
+    font-size: 40px;
+    
+}
+
+#hmbtn{
+    padding: 40px 40px;
+    font-size: 50px;
+}
+
+#hmbtn a{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 600;
+    width: 650px;
+    height:900px;
+    position:absolute;
+    top: 100px;
+    left: 700px;
+    border-radius: 16px;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    padding-left: 11px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+   
+  
+}
+
+.form input{
+    padding: 15px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.form h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.form h5{
+    position: absolute;
+    font-size: 20px;
+    bottom: 0px;
+    right: 20px;
+}
+
+.form a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#country{
+   padding: 20px 50px;
+   font-size: 20px;
+}
+
+.form tr{
+    padding: 10px;
+}
+
+
+.login{
+    align-content: center;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    border-radius: 16px;
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    padding: 10px;
+    width: 680px;
+    height: 480px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+    font-size: 26px;
+
+}
+.login label{
+    padding-left: 10px;
+}
+
+.login input{
+    margin-left: 25px;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+
+.login h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+
+}
+
+.login a{
+    font-size: 20px;
+}
+
+#login{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 450px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+#reg{
+    font-size: 20px;
+    color: black;
+    text-align: right;
+    position: relative;
+    bottom:10px;
+}
+
+/* Toggle Styles */
+
+#viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+  }
+  
+  /* Sidebar Styles */
+  
+  #sidebar {
+    z-index: 1000;
+    position: fixed;
+    top: 65px;
+    left: 250px;
+    width: 400px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+  }
+  
+  #sidebar p{
+    font-size: 34px;
+  }
+
+  #sidebar header {
+    background-color: #263238;
+    font-size: 34px;
+    line-height: 52px;
+    text-align: center;
+  }
+  
+  #sidebar header a {
+    color: #fff;
+    padding: 25px 25px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  #sidebar header a:hover {
+    color: #fff;
+  }
+  
+  #sidebar .nav{
+      position: relative;
+      top: 20px;
+      padding: 20px 30px;
+    
+  }
+  
+  #sidebar .nav a{
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  
+  #sidebar .nav a:hover{
+    background: none;
+    color: #ECEFF1;
+  }
+  
+  #sidebar .nav a i{
+    margin-right: 16px;
+  }
+  
+  #content{
+      left: 300px;
+      top: 200px;
+  }
+
+}
+
+@media screen and (min-width:2560px)
+{
+
+    
+
+.homebtn{
+    padding: 15px 20px;
+    font-size: 40px;
+    
+}
+
+#hmbtn{
+    padding: 40px 40px;
+    font-size: 26px;
+}
+
+#hmbtn a{
+    color: aliceblue;
+}
+
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    width: 750px;
+    height:1000px;
+    position:absolute;
+    top: 150px;
+    left: 800px;
+    border-radius: 16px;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    padding-left: 11px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+   
+  
+}
+
+.form input{
+    padding: 15px 30px;
+    font-size: 15px;
+}
+
+.form h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    
+}
+
+.form h5{
+    position: absolute;
+    font-size: 20px;
+    bottom: 0px;
+    right: 20px;
+}
+
+.form a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#country{
+   padding: 20px 50px;
+}
+
+.form tr{
+    padding: 10px;
+}
+
+
+.login{
+    align-content: center;
+    color: rgb(43, 43, 43);
+    background-color: rgb(219, 219, 219);
+    border-radius: 16px;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    padding: 10px;
+    width: 680px;
+    height: 480px;
+    box-shadow: 10px 10px rgba(104, 103, 103, 0.562);
+    font-size: 26px;
+
+}
+.login label{
+    padding-left: 10px;
+}
+
+.login input{
+    margin-left: 25px;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+
+.login h2{
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+
+}
+
+#login{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 120px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+}
+
+#rate{
+    color: black;
+}
+
+#cat{
+    width: 23%;
+    height: 100%;
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+
+.formupload h2{
+    font-size: 50px;
+    color: rgb(104, 104, 104);
+    text-shadow: 1px 1px black;
+}
+
+.input-group-text{
+    background-color:  rgba(184, 184, 184, 0.808)
+}
+
+
+.headerupload{
+    background-image:linear-gradient(rgba(87, 87, 87, 0.7),rgba(15, 15, 15, 0.918)),url(../picture/bg1.jpg);
+    background-size: cover;
+    position: relative  ;
+}
+
+.uploadform{
+    display: flexbox;
+    justify-content: center;
+}
+
+#business{
+    margin: 30px;
+}
+
+
+/* Toggle Styles */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
+
+/* Sidebar Styles */
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 400px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #37474F;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
+}
+
+#sidebar header {
+  background-color: #263238;
+  font-size: 34px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#sidebar header a {
+  color: #fff;
+  padding: 25px 25px;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebar header a:hover {
+  color: #fff;
+}
+
+#sidebar .nav{
+    position: relative;
+    top: 20px;
+    padding: 20px 30px;
+  
+}
+
+#sidebar .nav a{
+  background: none;
+  border-bottom: 1px solid #455A64;
+  color: #CFD8DC;
+  font-size: 24px;
+  padding: 0px 24px;
+  text-decoration: none;
+}
+
+#sidebar .nav a:hover{
+  background: none;
+  color: #ECEFF1;
+}
+
+#sidebar .nav a i{
+  margin-right: 16px;
+}
+
+#content{
+    left: 300px;
+    top: 200px;
+}
