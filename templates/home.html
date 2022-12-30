@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="../static/picture/alphabet-s-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <title>
+        Shiash | Container Leasing
+    </title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    </head>
+  <body>
+      <section class="bg">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/">
+              <img src="../static/picture/logotran.png" width="30" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="http://127.0.0.1:8000/"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:8000/viewcontainer/"><i class="fa fa-product-hunt fa-lg" aria-hidden="true"></i> Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user-plus fa-lg" aria-hidden="true"></i> Register
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="http://127.0.0.1:8000/lessor/">Business Account</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://127.0.0.1:8000/register/">User account</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-sign-in fa-lg" aria-hidden="true"></i>  Login
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="http://127.0.0.1:8000/lessorlogin/">Business Login</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="http://127.0.0.1:8000/userlogin/">User Login</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="http://127.0.0.1:8000/help/"><i class="fa fa-question fa-lg" aria-hidden="true"></i> Help</a>
+                </li>
+            </div>
+          </nav>
+      </header>
+
+        <div class="text">
+          <h1 id="shiash">SHIASH</h1><br>
+          <h2>Start your trade with <span>SHIASH</span></h2><br>
+          <p id="homequote">We always deliver more than expected!!!<br><br><a href=http://127.0.0.1:8000/register/>Register Now!!!</a>    (or)    <a href="http://127.0.0.1:8000/viewcontainer/">Skip to view container</a></p><br><br>
+          <div class="homebtn" id="hobtn">
+            <button type="button" class="btn btn-danger" id="hobtn1"><a href=http://127.0.0.1:8000/lessorlogin/><b>Business Account</b></a></button>
+            <button type="button" class="btn btn-danger" id="hobtn2"><a href=http://127.0.0.1:8000/userlogin/><b>User Account</b></a></button>
+        </div>
+
+      </div>
+      </section>
+      <div class="bg-dark">
+      <section class="footer">
+        <footer>
+          <div class="row" >
+            <div class="col-sm-6" id="foot">
+              <div class="card text-center bg-dark text-white">
+                <div class="card-body ">
+                  <ul>
+                    <li><a href="#" class="fa fa-facebook"></a> Facebook</li><br>
+                    <li><a href="#" class="fa fa-whatsapp"></a> Whatsapp</li><br>
+                    <li><a href="#" class="fa fa-twitter"></a> Twitter</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" id="foot">
+              <div class="card text-center bg-dark text-white">
+                <div class="card-body">
+                  <ul>
+                    <li><a href="#" class="fa fa-phone"></a> Contact no : 75554 51564</li><br>
+                    <li><a href="#" class="fa fa-info-circle"></a> Helpline no : 044- 2038 2039</li><br>
+                    <li><a href="#" class="fa fa-envelope"></a> Email : shiash@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><br><br><br>
+   
+  </section>
+        </footer>
+
+  </body>
+  </html>
